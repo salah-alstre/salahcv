@@ -1,6 +1,6 @@
 # My CV Project Welcome to my GitHub project page!
 
-This project is a personal interactive CV designed to showcase my skills and professional experience. You can view the live version of the CV at: [salahcv.site](http://salahcv.site).
+This project is a personal interactive CV designed to showcase my skills and professional experience. You can view the live version of the CV at: [salahcv.site](https://salahcv.site).
 ## What is this project?
 
 The CV includes:
