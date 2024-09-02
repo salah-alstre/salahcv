@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://salahcv.site/"),
+  metadataBase: new URL("https://salahcv.site/"),
   title: "Salah Alstre - SWE | IXD | UX",
     // تعيين عنوان الموقع الذي سيظهر في المتصفحات ومحركات البحث
 
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     title: "Salah Alstre - SWE | IXD | UX",
     description:
 "Recent graduate and aspiring Frontend and Mobile App Developer from Israel, with a focus on React Native and JavaScript technologies. Currently seeking opportunities to apply my skills in mobile app development and UX design. Eager to contribute to innovative projects and grow professionally in a dynamic work environment.",
-    images: "/cvsalah.jpg",
+    images: "/cvsalah.png",
     // الصوره الي بتبين لما اشارك الرابط 
   },
   alternates: {
-    canonical: "http://salahcv.site/",
+    canonical: "https://salahcv.site/",
   },
 };
 

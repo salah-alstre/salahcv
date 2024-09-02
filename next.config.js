@@ -1,12 +1,14 @@
 // /** @type {import('next').NextConfig} */
-// const nextConfig = {output: 'export'}
+// const nextConfig = {
+//     output: 'export'
+//     // يمكنك إضافة إعدادات أخرى هنا
+//   }
+  
+//   module.exports = nextConfig
+  
 
-// module.exports = nextConfig
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export'
-    // يمكنك إضافة إعدادات أخرى هنا
-  }
-  
-  module.exports = nextConfig
-  
+module.exports = {
+  images: {
+    unoptimized: true, 
+  },
+};
