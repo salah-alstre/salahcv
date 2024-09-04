@@ -14,7 +14,6 @@ The CV includes:
 
 ## Screenshots
 ![CV Image](https://github.com/salah-alstre/salahcv/blob/main/public/cvsalah.png?raw=true)
-
 ### installation 
 
 1. Clone this repository:
