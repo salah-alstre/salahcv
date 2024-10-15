@@ -61,7 +61,7 @@ const Projects: React.FC<{}> = () => {
         </div>
         <div className="flex-col flex md:flex-row">
           <Link
-            href="https://ai-image-generator-muys.onrender.com/"
+            href="https://ai-image-generator-theta-vert.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
