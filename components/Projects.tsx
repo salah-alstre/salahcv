@@ -14,7 +14,7 @@ const Projects: React.FC<{}> = () => {
       <div className="container mx-auto 2xl">
         <div className="flex-col flex md:flex-row mt-7">
           <Link
-            href="https://omar413.club/"
+            href="https://netflix--three.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
