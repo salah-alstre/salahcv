@@ -11,7 +11,7 @@ const Footer: React.FC<{}> = () => {
       var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;
-      s1.src = process.env.NEXT_PUBLIC_TAWK_TO_ID ?? "";
+      s1.src = process.env.NEXT_PUBLIC_TAWK_TO_ID ?? ""; // تأكد من أن الرابط صحيح
       s1.charset = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s0.parentNode?.insertBefore(s1, s0);
@@ -19,8 +19,8 @@ const Footer: React.FC<{}> = () => {
   }, []);
 
   return (
-    <div className=" container mx-auto 2xl pt-[50px] pb-8 ">
-      <div className="pb-10 justify-center flex ">
+    <div className="container mx-auto 2xl pt-[50px] pb-8">
+      <div className="pb-10 justify-center flex">
         {Social_Icons.map((social) => {
           return (
             <Link
@@ -43,7 +43,7 @@ const Footer: React.FC<{}> = () => {
         })}
       </div>
       <p className="text-gray-300 text-center text-sm">
-      I studied at Code Zone College ❤️
+       All Rights Reserved | Developed by Salah 2024 © 
       </p>
     </div>
   );

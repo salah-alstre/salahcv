@@ -13,7 +13,7 @@ const About: React.FC<{}> = () => {
           EXPLORE
         </p>
         <p className="text-gray-300 text-center">
-          I am Salah Alstre, a recent graduate in Full Stack Development from Code Zone College in Israel, actively seeking a position in frontend or mobile app development. Throughout my studies, I have developed strong skills in React and React Native, and I have a deep passion for creating innovative software solutions.
+          I am Salah , a recent graduate in Full Stack Development from Code Zone  in Israel, actively seeking a position in frontend or mobile app development. Throughout my studies, I have developed strong skills in React Native and React , and I have a deep passion for creating innovative software solutions.
           <br />
           <br />
           My academic projects focused on developing web and mobile applications that deliver seamless user experiences. I am committed to applying new technologies and achieving high standards of quality in every project I undertake.
@@ -29,7 +29,8 @@ const About: React.FC<{}> = () => {
           </ul>
           <h2 className="text-white font-semibold text-4xl mt-8">Education</h2>
           <p className="text-gray-300 mt-4">
-            Completed a comprehensive Full Stack Development program at Code Zone College, gaining expertise in both frontend and backend technologies.
+            
+            Completed a comprehensive Full Stack Development program at Code Zone , gaining expertise in both frontend and backend technologies.
           </p>          
         </div>
       </div>

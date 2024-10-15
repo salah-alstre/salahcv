@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://salahcv.site/"),
-  title: "Salah Alstre - SWE | IXD | UX",
+  title: "Salah - SWE | IXD | UX",
     // تعيين عنوان الموقع الذي سيظهر في المتصفحات ومحركات البحث
 
   description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     // كلمات رئيسية لتحسين محركات البحث (SEO) تساعد في تصنيف الموقع في نتائج البحث
 
   openGraph: {
-    title: "Salah Alstre - SWE | IXD | UX",
+    title: "Salah  - SWE | IXD | UX",
     description:
 "Recent graduate and aspiring Frontend and Mobile App Developer from Israel, with a focus on React Native and JavaScript technologies. Currently seeking opportunities to apply my skills in mobile app development and UX design. Eager to contribute to innovative projects and grow professionally in a dynamic work environment.",
     images: "/cvsalah.png",

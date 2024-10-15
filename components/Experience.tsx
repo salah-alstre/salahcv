@@ -20,7 +20,7 @@ const Experience: React.FC<{}> = () => {
               alt={"experience"}
             />
             <p className="text-gray-300">
-              <span className="font-semibold">Graduation Project /</span> Full Stack Developer
+              <span className="font-semibold">Project Collection /</span> Full Stack Developer
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">
@@ -29,15 +29,16 @@ const Experience: React.FC<{}> = () => {
         </div>
 
         <p className="text-gray-300 pt-5">
-          During my studies at Code Zone College, I worked on my graduation project which involved developing a full-stack mobile application. This project allowed me to apply my knowledge of React and React Native to build dynamic and responsive applications.
+        During my time at Code Zone College, I worked on several projects as part of my Full Stack Development program. These projects allowed me to apply my skills in
           <br />
           <br />
-          Throughout this project, I created both frontend and backend components, integrated APIs, and ensured seamless user experiences across different platforms. I gained practical experience with technologies such as JavaScript, TypeScript, and Node.js, and developed a deep understanding of component-based architecture and state management.
+          I focused on developing web applications that deliver seamless user experiences, utilizing technologies such as React, Next.js, and Node.js. Through these projects, I gained practical experience in frontend and backend development, API
+
         </p>
 
         <div className="flex-col flex sm:flex-row">
           <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#2E2E2E] w-max">
-            React Native
+            React
           </div>
           <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#2E2E2E] w-max">
           JavaScript
@@ -47,6 +48,9 @@ const Experience: React.FC<{}> = () => {
           </div>
           <div className="bg-transparent  mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           Node.js
+           </div>
+           <div className="bg-transparent  mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          Next.js
            </div>
         </div>
       </div>
