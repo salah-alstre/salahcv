@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Salah  - SWE | IXD | UX",
     description:
 "Recent graduate and aspiring Frontend and Mobile App Developer from Israel, with a focus on React Native and JavaScript technologies. Currently seeking opportunities to apply my skills in mobile app development and UX design. Eager to contribute to innovative projects and grow professionally in a dynamic work environment.",
-    images: "/cvsalah.png",
+    images: "/Me.png.png",
     // الصوره الي بتبين لما اشارك الرابط 
   },
   alternates: {

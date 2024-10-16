@@ -46,15 +46,14 @@ const Projects: React.FC<{}> = () => {
                 src="/bmw-love.jpg"
                 height={150}
                 width={150}
-                alt="HireSide"
+                alt="BMW Showcase"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">BMW Showcase</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
                   A web app to explore BMW models and features,
-                   showcasing the brand&apos;s excellence in the automotive industry.
+                  showcasing the brand&apos;s excellence in the automotive industry.
                 </p>
-
               </div>
             </div>
           </Link>
@@ -71,7 +70,7 @@ const Projects: React.FC<{}> = () => {
                 src="/ai-image.jpg"
                 height={150}
                 width={150}
-                alt="VergeSystems"
+                alt="AI Image Generator"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">AI Image Generator</p>
@@ -92,12 +91,36 @@ const Projects: React.FC<{}> = () => {
                 src="/email_error.jpg"
                 height={150}
                 width={150}
-                alt="Payoasis"
+                alt="ContactEase"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">ContactEase</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
                   A customizable, responsive contact form in HTML and CSS for effective communication.
+                </p>
+              </div>
+            </div>
+          </Link>
+        </div>
+       
+        <div className="flex-col flex mt-7">
+          <Link
+            href="https://bmw-elegance.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/Bmw-M.jpg"
+                height={150}
+                width={150}
+                alt="BMW-Elegance"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">BMW-Elegance</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                A captivating trailer that showcases the latest BMW models, emphasizing their design, performance, and advanced technology.
                 </p>
               </div>
             </div>

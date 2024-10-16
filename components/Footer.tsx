@@ -28,7 +28,7 @@ const Footer: React.FC<{}> = () => {
               rel="noopener noreferrer"
               target="_blank"
               key={social.alt}
-              className="z-[1]"
+              className="z-[1]" 
             >
               <Image
                 src={social.image}
