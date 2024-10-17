@@ -29,8 +29,7 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">TrailerHub</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
-                  A Netflix-like platform built with React and Vite for
-                  browsing and watching movie trailers effortlessly.
+                  A Netflix-like platform built with React and Vite for browsing and watching movie trailers effortlessly.
                 </p>
               </div>
             </div>
@@ -51,8 +50,7 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">BMW Showcase</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
-                  A web app to explore BMW models and features,
-                  showcasing the brand&apos;s excellence in the automotive industry.
+                  A web app to explore BMW models and features, showcasing the brand&apos;s excellence in the automotive industry.
                 </p>
               </div>
             </div>
@@ -120,20 +118,20 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">BMW-Elegance</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
-                A captivating trailer that showcases the latest BMW models, emphasizing their design, performance, and advanced technology.
+                  A captivating trailer that showcases the latest BMW models, emphasizing their design, performance, and advanced technology.
                 </p>
               </div>
             </div>
           </Link>
           <Link
-            href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/" 
+            href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/Dev.jpg" 
+                src="/Dev.jpg"
                 height={150}
                 width={150}
                 alt="Dev-profile"
@@ -141,12 +139,36 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Dev-profile</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
-                This project is a User Profile Card Component built using React JSX. It provides a sleek and modern way to display user information in a visually appealing format.
+                  This project is a User Profile Card Component built using React JSX. It provides a sleek and modern way to display user information in a visually appealing format.
                 </p>
               </div>
             </div>
           </Link>
         </div>
+        <div className="flex-col flex md:flex-row mt-7">
+          <Link
+            href="https://image-search-engine-teal-omega.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/ImageSearch.jpg"
+                height={150}
+                width={150}
+                alt="BMW-Elegance"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">Image Search Engine</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                This project is an Image Search Engine that utilizes the Unsplash API, allowing users to search for images using keywords.
+                 It features an intuitive interface for seamless navigation and displays images as links that open in new tabs.
+                </p>
+              </div>
+            </div>
+          </Link>
+          </div>
       </div>
     </section>
   );
