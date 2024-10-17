@@ -103,7 +103,7 @@ const Projects: React.FC<{}> = () => {
           </Link>
         </div>
        
-        <div className="flex-col flex mt-7">
+        <div className="flex-col flex md:flex-row mt-7">
           <Link
             href="https://bmw-elegance.vercel.app/"
             rel="noopener noreferrer"
@@ -121,6 +121,27 @@ const Projects: React.FC<{}> = () => {
                 <p className="text-white font-semibold text-xl">BMW-Elegance</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
                 A captivating trailer that showcases the latest BMW models, emphasizing their design, performance, and advanced technology.
+                </p>
+              </div>
+            </div>
+          </Link>
+          <Link
+            href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/" 
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/Dev.jpg" 
+                height={150}
+                width={150}
+                alt="Dev-profile"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">Dev-profile</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                This project is a User Profile Card Component built using React JSX. It provides a sleek and modern way to display user information in a visually appealing format.
                 </p>
               </div>
             </div>
