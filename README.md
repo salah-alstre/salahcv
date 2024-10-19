@@ -13,7 +13,7 @@ The CV includes:
 - **Interests:** Information about my personal interests and hobbies.
 
 ## Screenshots
-![CV Image](https://github.com/salah-alstre/salahcv/blob/main/public/My%100App.png)
+![CV Image](https://github.com/salah-alstre/salahcv/blob/main/public/My%20App.png)
 ### installation 
 
 1. Clone this repository:
