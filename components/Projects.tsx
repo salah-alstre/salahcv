@@ -137,7 +137,7 @@ const Projects: React.FC<{}> = () => {
                 alt="Dev-profile"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">Dev-profile</p>
+                <p className="text-white font-semibold text-xl">Dev Profile</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
                   This project is a User Profile Card Component built using React JSX. It provides a sleek and modern way to display user information in a visually appealing format.
                 </p>
@@ -145,6 +145,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
+            
         <div className="flex-col flex md:flex-row mt-7">
           <Link
             href="https://image-search-engine-teal-omega.vercel.app/"
@@ -157,18 +158,80 @@ const Projects: React.FC<{}> = () => {
                 src="/ImageSearch.jpg"
                 height={150}
                 width={150}
-                alt="BMW-Elegance"
+                alt="ImageSearch"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Image Search Engine</p>
                 <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
-                This project is an Image Search Engine that utilizes the Unsplash API, allowing users to search for images using keywords.
-                 It features an intuitive interface for seamless navigation and displays images as links that open in new tabs.
-                </p>
+                A responsive landing page for the iPhone 15, showcasing its features and sleek design. Built with HTML, CSS, and JavaScript for an engaging user experience.</p>
               </div>
             </div>
           </Link>
-          </div>
+          <Link
+            href="https://salahcv.site/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/My App.jpg"
+                height={150}
+                width={150}
+                alt="Deve-profile"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">CV Project</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                An interactive personal CV showcasing my skills and professional experience. This project includes sections on personal information, education, work experience, skills, projects, and interests.</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        
+        <div className="flex-col flex md:flex-row mt-7">
+          <Link
+            href="https://project-snowy-zeta.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/Apple.jpg"
+                height={150}
+                width={150}
+                alt="Apple"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">Apple iPhone 15</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                A responsive landing page for the iPhone 15, showcasing its features and sleek design. Built with HTML, CSS, and JavaScript for an engaging user experience.</p>
+              </div>
+            </div>
+          </Link>
+          <Link
+            href="https://devr-profile.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/DEVE.jpg"
+                height={150}
+                width={150}
+                alt="Deve-profile"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">Developer Portfolio</p>
+                <p className="text-gray-500 text-[10px] max-w-xs overflow-hidden text-ellipsis">
+                This project showcases my skills as a Full Stack Developer. Built with React and Tailwind CSS, it offers a sleek, responsive design. Explore different sections to learn more about my experience, skills, and projects.</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+
       </div>
     </section>
   );
